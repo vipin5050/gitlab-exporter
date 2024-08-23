@@ -1,10 +1,6 @@
 import requests
 from prometheus_client import start_http_server, Gauge
 
-#https://gitlab.wikimedia.org/repos/sre/gitlab-exporter
-#Project ID 2244
-#https://gitlab.wikimedia.org/api/v4/projects/2244/repository/commits
-
 GITLAB_API_URL = "https://gitlab.wikimedia.org/api/v4"
 GITLAB_TOKEN = "your_private_token"
 PROJECT_ID = "2244"
