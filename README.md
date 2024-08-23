@@ -12,5 +12,5 @@ custom Python script will periodically fetch metrics from the GitLab API and exp
 
 Key Points:
 
-    * Session-Level Headers: By using session.headers.update({'PRIVATE-TOKEN': GITLAB_TOKEN}), the authentication token is set for all requests made through the session. This ensures that each request is properly authenticated.
-    * Session Persistence: The session object keeps connections open, reducing the overhead of establishing a new connection for each request, but you must ensure the headers (like the authentication token) are consistently applied.
+* Session-Level Headers: By using session.headers.update({'PRIVATE-TOKEN': GITLAB_TOKEN}), the authentication token is set for all requests made through the session. This ensures that each request is properly authenticated.
+* Session Persistence: The session object keeps connections open, reducing the overhead of establishing a new connection for each request, but you must ensure the headers (like the authentication token) are consistently applied.
